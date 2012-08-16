@@ -2,6 +2,7 @@ import json
 from xml.dom.minidom import parseString
 import re
 import pprint
+import math
 
 def outputFile(data, filename): #create (csv) file with data information
     with open(filename, 'w') as out_handle:
@@ -88,7 +89,7 @@ def getRelativePositions (name): #returns position on the table
     for s in range(len(b)):
         tempX = re.findall('x="(\w+)', b[s])
         tempY = re.findall('y="(\w+)', b[s])
-        positions.append((int(tempX[0])/10, int(tempY[0])/10)) #/10 for smaller matrix
+        positions.append((int(tempX[0]), int(tempY[0]))) #/10 for smaller matrix
     return positions
 
 def getOcclusion(name): #returns percentage of the occlusion for one item
@@ -128,9 +129,6 @@ def onTable():      #average items on table: 1. both categories, 2. physical and
     average_p = count_p / timeframe
     average_h = count_h / timeframe
     return average_t, average_p, average_h
-    print "Average items on table:", average_t, "per minute"
-    print "Average PHYSICALS on table:", average_p, "per minute"
-    print "Average HYBRIDS on table:", average_h, "per minute", "\n"
 
 def generateOutput(allnames, list): #create output for console and file
     output_list = list
@@ -148,19 +146,22 @@ def generateOutput(allnames, list): #create output for console and file
         occ = getOcclusion(allnames[x]) #occlusion
         gen_occ = gen_occ + (time*occ)
         
-        print len(pos), "Position(s) of", allnames[x], ":", pos, "\n", "Total time on the table:", round(time, 4), "seconds"
-        print "Average space occluded by this item:", round(occ, 4), "percent"
-        print "Average space occluded throughout the experiment:", round((time*occ)/(totaltime),4)
+        print len(pos), "Position(s) of", allnames[x], ":", pos, "\n", "Total time on the table:", time, "seconds"
+        print "Average space occluded by this item:", occ, "percent."
+        print "Average space occluded throughout the experiment:", (time*occ)/(totaltime)
 
         a, b = getSize(allnames[x])
         print "Average x =", a, "and average y =", b   
         print "\n"
 
-        output_list.append((allnames[x], str(round((time/60),4)), str(round(occ,4)), str(round(((time*occ)/(totaltime)),4)), str(a), str(b)))
+        output_list.append((allnames[x], str((time/60)), str(occ), str(((time*occ)/(totaltime))), str(a), str(b)))
 
-    print "Physicals:", p, "\n", "Hybrids:", h, "\n"
-    print "Average items on the table:", ontableT, "percent", "\n"
-    print "Average space of the table occluded:", gen_occ / (totaltime), "percent", "\n"
+    print "Physicals:", p, "\n", "Hybrids:", h
+    print "Average items on the table:", ontableT
+    print "Average physical items on the table:", ontableP
+    print "Average hybrid items on the table:", ontableH
+    print "Average space of the table occluded:", gen_occ / (totaltime), "percent."
+    print "Total duration of the video:", totaltime, "seconds. Thats equal", totaltime/60, "minutes.", "\n"
 
     # data for physical itemss:
     timeP = 0 # total time 
@@ -178,11 +179,11 @@ def generateOutput(allnames, list): #create output for console and file
         xP = xP + sizexP
         yP = yP + sizeyP
 
-    output_list.append(("physical item", str(round((((timeP/60))/len(p)),4)), str(round((occP /len(p)),4)), str(round(((gen_occ_P/totaltime)),4)), str(xP/len(posP)), str(yP/len(posP))))
+    output_list.append(("physical item", str(((timeP/60))/len(p)), str((occP /len(p))), str(((gen_occ_P/totaltime))), str(xP/len(posP)), str(yP/len(posP))))
 
-    print "Position(s) of PHYSICALS:", posP, "\n", "Average time of PHYSICAL ITEMS on the table:", timeP /len(p), "seconds"
-    print "Average space occluded by one physical item:", occP / len(p), "percent"
-    print "Average space occluded by physical items:", gen_occ_P /totaltime, "percent"
+    print "Position(s) of PHYSICALS:", posP, "\n", "Average time of PHYSICAL ITEMS on the table:", timeP /len(p), "seconds."
+    print "Average space occluded by one physical item:", occP / len(p), "percent."
+    print "Average space occluded by physical items:", gen_occ_P /totaltime, "percent."
     print "Average x =", xP / len(posP), "and average y =", yP/len(posP)
     print "len(posP)=", len(posP), "\n", "len(p)=", len(p), "\n"
 
@@ -202,11 +203,11 @@ def generateOutput(allnames, list): #create output for console and file
         xH = xH + sizexH
         yH = yH + sizeyH
 
-    output_list.append(("hybrid item", str(round((((timeH/60))/len(h)),4)), str(round((occH /len(h)),4)), str(round(((gen_occ_H/totaltime)),4)), str(xH/len(posH)), str(yH/len(posH))))
+    output_list.append(("hybrid item", str((((timeH/60))/len(h))), str((occH /len(h))), str(((gen_occ_H/totaltime))), str(xH/len(posH)), str(yH/len(posH))))
 
-    print "Position(s) of HYBRIDS:", posH, "\n", "Average time of HYBRID ITEMS on the table:", timeH / len(h), "seconds"
-    print "Average space occluded by one hybrid item:", occH / len(h), "percent"
-    print "Average space occluded by hybrid items:", gen_occ_H / totaltime , "percent"
+    print "Position(s) of HYBRIDS:", posH, "\n", "Average time of HYBRID ITEMS on the table:", timeH / len(h), "seconds."
+    print "Average space occluded by one hybrid item:", occH / len(h), "percent."
+    print "Average space occluded by hybrid items:", gen_occ_H / totaltime , "percent."
     print "Average x =", xH / len(posH), "and average y =", yH/len(posH)
     print "len(posH)=", len(posH), "\n", "len(h)=", len(h), "\n"
 
@@ -217,8 +218,8 @@ def createMatrix(col, row): #create a new matrix with value 0
 def modifyMatrix(name, matrix): #modify to a heatmap-style matrix
     m = matrix
     sizeX, sizeY = getSize(name)
-    sizeX = sizeX /10
-    sizeY = sizeY /10
+#    sizeX = sizeX /10
+#    sizeY = sizeY /10
 
     r = getRelativePositions(name)
     p = getJsonPositions(name)
@@ -245,36 +246,36 @@ def modifyMatrix(name, matrix): #modify to a heatmap-style matrix
 def outputMatrix(matrix, outputname): #switch int to str
     for x in range(len(matrix)):
         for y in range(len(matrix[x])):
-            matrix[x][y]=str(matrix[x][y])
+            matrix[x][y]=str(int(matrix[x][y]))
     outputFile(matrix, outputname)
 
-json_file = open('graphical_annotation2.json', 'r')
+json_file = open('graphical_annotation.json', 'r')
 json_data = json.load(json_file)
 print "Items in json file: ", len(json_data["annotations"]), "\n"
 
 allnames = getNames()
 output_list = [('name', 'time on table (in m)', 'occlusion', 'occlusion through experiment', 'sizeX', 'sizeY')]
 generateOutput(allnames, output_list)
-outputFile(output_list, 'output2.csv')
+outputFile(output_list, 'output_1.csv')
 
 #pprint.pprint(output_list)
 
-matrix = createMatrix(70,50)
-matrixPhysicals = createMatrix(70,50)
-matrixHybrids = createMatrix(70,50)
+matrix = createMatrix(700,505)
+matrixPhysicals = createMatrix(700,505)
+matrixHybrids = createMatrix(700,505)
 physicals, hybrids = getCategory(allnames)
 
 for s in range(len(allnames)):
     matrix = modifyMatrix(allnames[s],matrix)
-outputMatrix(matrix,'matrix2.csv')
+outputMatrix(matrix,'matrix_1_big.csv')
 
 for s in range (len(physicals)):
     matrixPhysicals = modifyMatrix(physicals[s],matrixPhysicals)
-outputMatrix (matrixPhysicals, 'matrixPhysicals2.csv')
+outputMatrix (matrixPhysicals, 'matrix_1_big_Physicals.csv')
 
 for s in range (len(hybrids)):
     matrixHybrids = modifyMatrix(hybrids[s], matrixHybrids)
-outputMatrix(matrixHybrids, 'matrixHybrids2.csv')
+outputMatrix(matrixHybrids, 'matrix_1_big_Hybrids.csv')
 
 
 json_file.close()

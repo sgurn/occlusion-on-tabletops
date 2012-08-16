@@ -1,0 +1,96 @@
+Items in json file:  45 
+
+6 Position(s) of Large1 : [0, 6, 11, 13, 23, 38] 
+Total time on the table: 7509.675 seconds
+Average space occluded by this item: 5.41666666667 percent
+Average space occluded throughout the experiment: 4.64194981741
+Average x = 160 and average y = 104
+
+
+2 Position(s) of Blue1 : [1, 4] 
+Total time on the table: 382.98 seconds
+Average space occluded by this item: 1.59375 percent
+Average space occluded throughout the experiment: 0.0696535861007
+Average x = 96 and average y = 51
+
+
+9 Position(s) of Small1 : [2, 3, 5, 8, 14, 15, 19, 41, 42] 
+Total time on the table: 2937.183 seconds
+Average space occluded by this item: 2.24283854167 percent
+Average space occluded throughout the experiment: 0.751754791319
+Average x = 106 and average y = 65
+
+
+1 Position(s) of Blue2 : [7] 
+Total time on the table: 41.96 seconds
+Average space occluded by this item: 2.76041666667 percent
+Average space occluded throughout the experiment: 0.0132177431625
+Average x = 80 and average y = 106
+
+
+6 Position(s) of White1 : [9, 12, 18, 25, 34, 40] 
+Total time on the table: 7301.365 seconds
+Average space occluded by this item: 1.5556640625 percent
+Average space occluded throughout the experiment: 1.29618522626
+Average x = 81 and average y = 59
+
+
+9 Position(s) of White2 : [10, 17, 20, 22, 24, 28, 33, 36, 39] 
+Total time on the table: 5380.392 seconds
+Average space occluded by this item: 1.4501953125 percent
+Average space occluded throughout the experiment: 0.890405027709
+Average x = 81 and average y = 55
+
+
+1 Position(s) of Glass1 : [16] 
+Total time on the table: 1476.96 seconds
+Average space occluded by this item: 2.578125 percent
+Average space occluded throughout the experiment: 0.434530126669
+Average x = 88 and average y = 90
+
+
+3 Position(s) of Blue3 : [21, 29, 32] 
+Total time on the table: 3855.011 seconds
+Average space occluded by this item: 1.94661458333 percent
+Average space occluded throughout the experiment: 0.856352919264
+Average x = 92 and average y = 65
+
+
+1 Position(s) of Ipad : [26] 
+Total time on the table: 243.855 seconds
+Average space occluded by this item: 5.419921875 percent
+Average space occluded throughout the experiment: 0.150824494902
+Average x = 90 and average y = 185
+
+
+7 Position(s) of Keyboard : [27, 30, 31, 35, 37, 43, 44] 
+Total time on the table: 5839.187 seconds
+Average space occluded by this item: 4.55924479167 percent
+Average space occluded throughout the experiment: 3.03803297014
+Average x = 149 and average y = 94
+
+
+Physicals: [u'Blue1', u'Blue2', u'White1', u'White2', u'Glass1', u'Blue3', u'Ipad', u'Keyboard'] 
+Hybrids: [u'Large1', u'Small1']
+Average items on the table: 3.98859749145
+Average physical items on the table: 2.79703534778
+Average hybrid items on the table: 1.19156214367
+Average space of the table occluded: 12.1429067029 percent
+Total duration of the video: 8763 seconds. Thats equal 146 minutes. 
+
+Position(s) of PHYSICALS: [[1, 4], [7], [9, 12, 18, 25, 34, 40], [10, 17, 20, 22, 24, 28, 33, 36, 39], [16], [21, 29, 32], [26], [27, 30, 31, 35, 37, 43, 44]] 
+Average time of PHYSICAL ITEMS on the table: 3065.21375 seconds
+Average space occluded by one physical item: 2.73299153646 percent
+Average space occluded by physical items: 6.7492020942 percent
+Average x = 94 and average y = 88
+len(posP)= 8 
+len(p)= 8 
+
+Position(s) of HYBRIDS: [[0, 6, 11, 13, 23, 38], [2, 3, 5, 8, 14, 15, 19, 41, 42]] 
+Average time of HYBRID ITEMS on the table: 5223.429 seconds
+Average space occluded by one hybrid item: 3.82975260417 percent
+Average space occluded by hybrid items: 5.39370460873 percent
+Average x = 133 and average y = 84
+len(posH)= 2 
+len(h)= 2 
+
