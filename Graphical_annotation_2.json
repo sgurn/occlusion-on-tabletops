@@ -744,7 +744,7 @@
                         "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-HC-july18-640x480.mov",
                         "begin": 28117383,
                         "end": 28512383,
-                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"104\" name=\"large_1\" stroke=\"green\" style=\"stroke-width:2\" width=\"187\" x=\"164\" y=\"263\" />\n</svg:svg>"
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"104\" name=\"large_1\" stroke=\"red\" style=\"stroke-width:2\" width=\"187\" x=\"164\" y=\"263\" />\n</svg:svg>"
                 },
 
                 {

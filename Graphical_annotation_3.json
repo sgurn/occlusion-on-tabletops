@@ -1,0 +1,318 @@
+{ "annotations": [
+
+                {
+                        "id": "a1",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 0,
+                        "end": 2443237,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"100\" name=\"glass_1\" stroke=\"green\" style=\"stroke-width:2\" width=\"100\" x=\"144\" y=\"132\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a4",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 0,
+                        "end": 132000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"40\" name=\"mouse\" stroke=\"green\" style=\"stroke-width:2\" width=\"38\" x=\"401\" y=\"439\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a8",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 0,
+                        "end": 2233000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"44\" name=\"notes\" stroke=\"green\" style=\"stroke-width:2\" width=\"143\" x=\"5\" y=\"432\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a12",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 0,
+                        "end": 154000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"99\" name=\"pipette\" stroke=\"green\" style=\"stroke-width:2\" width=\"16\" x=\"601\" y=\"408\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a15",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 0,
+                        "end": 3982076,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"79\" name=\"glass_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"75\" x=\"605\" y=\"125\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a27",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 0,
+                        "end": 2134000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"48\" name=\"aluminum\" stroke=\"green\" style=\"stroke-width:2\" width=\"54\" x=\"597\" y=\"221\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a3",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 1000,
+                        "end": 275000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"54\" name=\"small_rack_1\" stroke=\"green\" style=\"stroke-width:2\" width=\"76\" x=\"33\" y=\"315\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a5",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 133000,
+                        "end": 2772000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"67\" name=\"mouse\" stroke=\"green\" style=\"stroke-width:2\" width=\"46\" x=\"494\" y=\"322\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a13",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 155000,
+                        "end": 2123000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"95\" name=\"pipette\" stroke=\"green\" style=\"stroke-width:2\" width=\"15\" x=\"535\" y=\"428\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a14",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2124000,
+                        "end": 6031921,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"103\" name=\"pipette\" stroke=\"green\" style=\"stroke-width:2\" width=\"17\" x=\"606\" y=\"378\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a17",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2146850,
+                        "end": 2156850,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"47\" name=\"small_glass\" stroke=\"green\" style=\"stroke-width:2\" width=\"43\" x=\"542\" y=\"182\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a18",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2157850,
+                        "end": 2288850,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"45\" name=\"small_glass\" stroke=\"green\" style=\"stroke-width:2\" width=\"39\" x=\"554\" y=\"219\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a9",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2234000,
+                        "end": 2321000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"42\" name=\"notes\" stroke=\"green\" style=\"stroke-width:2\" width=\"158\" x=\"47\" y=\"438\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a19",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2289850,
+                        "end": 2838308,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"42\" name=\"small_glass\" stroke=\"green\" style=\"stroke-width:2\" width=\"36\" x=\"594\" y=\"207\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a10",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2322000,
+                        "end": 2706000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"66\" name=\"notes\" stroke=\"green\" style=\"stroke-width:2\" width=\"144\" x=\"40\" y=\"412\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a2",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2443237,
+                        "end": 6052000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"85\" name=\"glass_1\" stroke=\"green\" style=\"stroke-width:2\" width=\"88\" x=\"100\" y=\"128\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a6",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2509000,
+                        "end": 2695000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"59\" name=\"blue_box\" stroke=\"green\" style=\"stroke-width:2\" width=\"94\" x=\"191\" y=\"388\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a24",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2564253,
+                        "end": 2706253,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"26\" name=\"vial\" stroke=\"green\" style=\"stroke-width:2\" width=\"29\" x=\"16\" y=\"347\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a21",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2575000,
+                        "end": 2706000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"129\" name=\"blue_box_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"39\" x=\"2\" y=\"200\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a33",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2663003,
+                        "end": 5016003,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"36\" name=\"caps\" stroke=\"green\" style=\"stroke-width:2\" width=\"21\" x=\"16\" y=\"386\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a7",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2696000,
+                        "end": 2717000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"64\" name=\"blue_box\" stroke=\"green\" style=\"stroke-width:2\" width=\"95\" x=\"149\" y=\"318\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a22",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2707000,
+                        "end": 2739000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"111\" name=\"blue_box_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"47\" x=\"3\" y=\"130\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a25",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2707253,
+                        "end": 2739253,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"26\" name=\"vial\" stroke=\"green\" style=\"stroke-width:2\" width=\"22\" x=\"21\" y=\"238\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a11",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2718123,
+                        "end": 6052000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"91\" name=\"pen_1\" stroke=\"green\" style=\"stroke-width:2\" width=\"12\" x=\"41\" y=\"365\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a23",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2740000,
+                        "end": 6052000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"82\" name=\"blue_box_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"44\" x=\"3\" y=\"113\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a26",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2740253,
+                        "end": 4169253,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"23\" name=\"vial\" stroke=\"green\" style=\"stroke-width:2\" width=\"22\" x=\"11\" y=\"207\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a20",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 2839308,
+                        "end": 6048723,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"46\" name=\"small_glass\" stroke=\"green\" style=\"stroke-width:2\" width=\"44\" x=\"583\" y=\"219\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a28",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 3620000,
+                        "end": 3707000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"57\" name=\"white_rack\" stroke=\"green\" style=\"stroke-width:2\" width=\"65\" x=\"174\" y=\"424\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a31",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 3697003,
+                        "end": 3850003,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"31\" name=\"white_rack_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"88\" x=\"50\" y=\"441\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a29",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 3708000,
+                        "end": 4037000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"61\" name=\"white_rack\" stroke=\"green\" style=\"stroke-width:2\" width=\"53\" x=\"71\" y=\"357\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a32",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 3851003,
+                        "end": 3928003,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"32\" name=\"white_rack_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"101\" x=\"88\" y=\"446\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a16",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 3994076,
+                        "end": 6052000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"77\" name=\"glass_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"78\" x=\"532\" y=\"114\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a30",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 4038000,
+                        "end": 4455000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"57\" name=\"white_rack\" stroke=\"green\" style=\"stroke-width:2\" width=\"53\" x=\"96\" y=\"401\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a34",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 4291000,
+                        "end": 4609000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"11\" name=\"pen_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"75\" x=\"413\" y=\"413\" />\n</svg:svg>"
+                },
+
+                {
+                        "id": "a35",
+                        "type": "svgannotation",
+                        "media": "E%3A%5CStudium%5CProjektarbeit%5Ctop-june01-640x480.mov",
+                        "begin": 4632000,
+                        "end": 4708000,
+                        "content": "<svg:svg xmlns:svg=\"http://www.w3.org/2000/svg\" height=\"480pt\" preserveAspectRatio=\"xMinYMin meet\" version=\"1\" viewBox=\"0 0 640 480\" width=\"640pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <svg:rect fill=\"none\" height=\"13\" name=\"pen_2\" stroke=\"green\" style=\"stroke-width:2\" width=\"75\" x=\"448\" y=\"349\" />\n</svg:svg>"
+                }
+
+] }

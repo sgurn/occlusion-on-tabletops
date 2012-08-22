@@ -1,0 +1,131 @@
+Items in json file:  35 
+
+2 Position(s) of glass_1 : [0, 15] 
+Total time on the table: 6052.0 seconds
+Average screen space occluded by this item: 3.81305114638 percent.
+Average space occluded throughout the experiment: 2.81510416667
+Average x = 94 px and average y = 92 px
+
+
+2 Position(s) of mouse : [1, 7] 
+Total time on the table: 2771.0 seconds
+Average screen space occluded by this item: 0.981481481481 percent.
+Average space occluded throughout the experiment: 0.33177339361
+Average x = 42 px and average y = 53 px
+
+
+3 Position(s) of notes : [2, 12, 14] 
+Total time on the table: 2704.0 seconds
+Average screen space occluded by this item: 3.26278659612 percent.
+Average space occluded throughout the experiment: 1.07626266799
+Average x = 148 px and average y = 50 px
+
+
+3 Position(s) of pipette : [3, 8, 9] 
+Total time on the table: 6029.921 seconds
+Average screen space occluded by this item: 0.698412698413 percent.
+Average space occluded throughout the experiment: 0.5137438889
+Average x = 16 px and average y = 99 px
+
+
+2 Position(s) of glass_2 : [4, 31] 
+Total time on the table: 6040.0 seconds
+Average screen space occluded by this item: 2.61375661376 percent.
+Average space occluded throughout the experiment: 1.92586128553
+Average x = 76 px and average y = 78 px
+
+
+1 Position(s) of aluminum : [5] 
+Total time on the table: 2134.0 seconds
+Average screen space occluded by this item: 1.14285714286 percent.
+Average space occluded throughout the experiment: 0.297515284204
+Average x = 54 px and average y = 48 px
+
+
+1 Position(s) of small_rack_1 : [6] 
+Total time on the table: 274.0 seconds
+Average screen space occluded by this item: 1.80952380952 percent.
+Average space occluded throughout the experiment: 0.060483621117
+Average x = 76 px and average y = 54 px
+
+
+4 Position(s) of small_glass : [10, 11, 13, 26] 
+Total time on the table: 3898.873 seconds
+Average screen space occluded by this item: 0.793650793651 percent.
+Average space occluded throughout the experiment: 0.377477841778
+Average x = 40 px and average y = 45 px
+
+
+5 Position(s) of blue_box : [16, 18, 20, 21, 24] 
+Total time on the table: 3682.0 seconds
+Average screen space occluded by this item: 2.47222222222 percent.
+Average space occluded throughout the experiment: 1.11043772978
+Average x = 63 px and average y = 89 px
+
+
+3 Position(s) of vial : [17, 22, 25] 
+Total time on the table: 1603.0 seconds
+Average screen space occluded by this item: 0.26455026455 percent.
+Average space occluded throughout the experiment: 0.0517326400364
+Average x = 24 px and average y = 25 px
+
+
+3 Position(s) of blue_box_2 : [18, 21, 24] 
+Total time on the table: 3475.0 seconds
+Average screen space occluded by this item: 2.02865961199 percent.
+Average space occluded throughout the experiment: 0.859977148997
+Average x = 43 px and average y = 107 px
+
+
+1 Position(s) of caps : [19] 
+Total time on the table: 2353.0 seconds
+Average screen space occluded by this item: 0.333333333333 percent.
+Average space occluded throughout the experiment: 0.0956805343275
+Average x = 21 px and average y = 36 px
+
+
+1 Position(s) of pen_1 : [23] 
+Total time on the table: 3333.877 seconds
+Average screen space occluded by this item: 0.481481481481 percent.
+Average space occluded throughout the experiment: 0.195817761045
+Average x = 12 px and average y = 91 px
+
+
+5 Position(s) of white_rack : [27, 28, 29, 30, 32] 
+Total time on the table: 1063.0 seconds
+Average screen space occluded by this item: 1.49206349206 percent.
+Average space occluded throughout the experiment: 0.193483300975
+Average x = 72 px and average y = 47 px
+
+
+2 Position(s) of white_rack_2 : [28, 30] 
+Total time on the table: 230.0 seconds
+Average screen space occluded by this item: 1.2848324515 percent.
+Average space occluded throughout the experiment: 0.0360493345864
+Average x = 94 px and average y = 31 px
+
+
+2 Position(s) of pen_2 : [33, 34] 
+Total time on the table: 394.0 seconds
+Average screen space occluded by this item: 0.396825396825 percent.
+Average space occluded throughout the experiment: 0.019072982072
+Average x = 75 px and average y = 12 px
+
+
+Physicals: [u'glass_1', u'mouse', u'notes', u'pipette', u'glass_2', u'aluminum', u'small_rack_1', u'small_glass', u'blue_box', u'vial', u'blue_box_2', u'caps', u'pen_1', u'white_rack', u'white_rack_2', u'pen_2'] 
+Hybrids: []
+Average items on the table: 6.99174917492
+Average physical items on the table: 6.99174917492
+Average hybrid items on the table: 0.0
+Average space occluded: 9.96047358161 percent.
+Total duration of the video: 6052 seconds. Thats equal 100 minutes. 
+
+Position(s) of PHYSICALS: [[0, 15], [1, 7], [2, 12, 14], [3, 8, 9], [4, 31], [5], [6], [10, 11, 13, 26], [16, 18, 20, 21, 24], [17, 22, 25], [18, 21, 24], [19], [23], [27, 28, 29, 30, 32], [28, 30], [33, 34]] 
+Average time of PHYSICAL ITEMS on the table: 2877.3544375 seconds.
+Average screen space occluded by one physical item: 1.49184303351 percent.
+Average space occluded by physical items: 9.96047358161 percent.
+Average x = 59 px and average y = 59 px
+len(posP)= 16 
+len(p)= 16 
+
+No Hybrid items found!

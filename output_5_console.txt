@@ -1,0 +1,117 @@
+Items in json file:  32 
+
+2 Position(s) of keyboard : [0, 4] 
+Total time on the table: 1374.0 seconds
+Average screen space occluded by this item: 4.60846560847 percent.
+Average space occluded throughout the experiment: 2.43988534055
+Average x = 156 px and average y = 67 px
+
+
+3 Position(s) of mouse : [1, 5, 16] 
+Total time on the table: 1914.0 seconds
+Average screen space occluded by this item: 0.771604938272 percent.
+Average space occluded throughout the experiment: 0.569066822156
+Average x = 35 px and average y = 50 px
+
+
+1 Position(s) of glass_1 : [2] 
+Total time on the table: 1354.0 seconds
+Average screen space occluded by this item: 1.80555555556 percent.
+Average space occluded throughout the experiment: 0.942010740149
+Average x = 65 px and average y = 63 px
+
+
+1 Position(s) of calc : [3] 
+Total time on the table: 330.0 seconds
+Average screen space occluded by this item: 1.12654320988 percent.
+Average space occluded throughout the experiment: 0.143247855232
+Average x = 35 px and average y = 73 px
+
+
+5 Position(s) of large_1 : [6, 7, 8, 15, 18] 
+Total time on the table: 1712.232 seconds
+Average screen space occluded by this item: 4.60846560847 percent.
+Average space occluded throughout the experiment: 3.04050200613
+Average x = 134 px and average y = 78 px
+
+
+3 Position(s) of small_1 : [9, 12, 13] 
+Total time on the table: 1075.0 seconds
+Average screen space occluded by this item: 3.40476190476 percent.
+Average space occluded throughout the experiment: 1.4103326021
+Average x = 117 px and average y = 66 px
+
+
+2 Position(s) of tag : [10, 11] 
+Total time on the table: 20.0 seconds
+Average screen space occluded by this item: 2.49470899471 percent.
+Average space occluded throughout the experiment: 0.0192254371086
+Average x = 69 px and average y = 82 px
+
+
+1 Position(s) of pen : [14] 
+Total time on the table: 901.0 seconds
+Average screen space occluded by this item: 0.747795414462 percent.
+Average space occluded throughout the experiment: 0.259617475644
+Average x = 16 px and average y = 106 px
+
+
+2 Position(s) of plate_1 : [17, 19] 
+Total time on the table: 448.404 seconds
+Average screen space occluded by this item: 25.3950617284 percent.
+Average space occluded throughout the experiment: 4.38778243248
+Average x = 238 px and average y = 242 px
+
+
+2 Position(s) of plate_2 : [20, 23] 
+Total time on the table: 42.0 seconds
+Average screen space occluded by this item: 14.3562610229 percent.
+Average space occluded throughout the experiment: 0.23233624739
+Average x = 220 px and average y = 148 px
+
+
+4 Position(s) of Box_1 : [21, 22, 25, 28] 
+Total time on the table: 414.0 seconds
+Average screen space occluded by this item: 5.25970017637 percent.
+Average space occluded throughout the experiment: 0.839049655859
+Average x = 79 px and average y = 151 px
+
+
+2 Position(s) of Rack : [24, 27] 
+Total time on the table: 284.0 seconds
+Average screen space occluded by this item: 5.05996472663 percent.
+Average space occluded throughout the experiment: 0.553722490431
+Average x = 151 px and average y = 76 px
+
+
+4 Position(s) of plate_3 : [26, 29, 30, 31] 
+Total time on the table: 117.0 seconds
+Average screen space occluded by this item: 16.8571428571 percent.
+Average space occluded throughout the experiment: 0.759969500261
+Average x = 162 px and average y = 236 px
+
+
+Physicals: [u'keyboard', u'mouse', u'glass_1', u'calc', u'pen', u'plate_1', u'plate_2', u'Box_1', u'Rack', u'plate_3'] 
+Hybrids: [u'large_1', u'small_1', u'tag']
+Average items on the table: 5.21875
+Average physical items on the table: 3.75
+Average hybrid items on the table: 1.46875
+Average space occluded: 15.5967486055 percent.
+Total duration of the video: 1916 seconds. Thats equal 31 minutes. 
+
+Position(s) of PHYSICALS: [[0, 4], [1, 5, 16], [2], [3], [14], [17, 19], [20, 23], [21, 22, 25, 28], [24, 27], [26, 29, 30, 31]] 
+Average time of PHYSICAL ITEMS on the table: 717.8404 seconds.
+Average screen space occluded by one physical item: 7.59880952381 percent.
+Average space occluded by physical items: 11.1266885602 percent.
+Average x = 115 px and average y = 121 px
+len(posP)= 10 
+len(p)= 10 
+
+Position(s) of HYBRIDS: [[6, 7, 8, 15, 18], [9, 12, 13], [10, 11]] 
+Average time of HYBRID ITEMS on the table: 935.744 seconds.
+Average screen space occluded by one hybrid item: 3.50264550265 percent.
+Average space occluded by hybrid items: 4.47006004534 percent.
+Average x = 106 px and average y = 75 px
+len(posH)= 3 
+len(h)= 3 
+
