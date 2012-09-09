@@ -31,18 +31,19 @@ def getTime (name):    #returns total time on the table in seconds
     return x
 
 def getMovement(name):
-  a = getJsonPositions(name)
   distance = 0
+  b = getContent(name)
   for s in range(len(b)):
-      x2 = re.findall('x="(\w+)', b[s])
-      y2 = re.findall('y="(\w+)', b[s])
+      print b[s]
+      x2 = int(re.findall('x="(\w+)', b[s])[0])
+      y2 = int(re.findall('y="(\w+)', b[s])[0])
       print "getMovement ", s, x2, y2, distance
       if (s>0):
         distance = distance + math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
       x1 = x2
       y1 = y2
       
-  return a,distance
+  return distance
 
 def getContent (name):  #returns rectangle data of the 'content' part
     a = getJsonPositions(name)
@@ -161,22 +162,23 @@ def generateOutput(allnames, list): #create output for console and file
     for x in range(len(allnames)):
 
         time = getTime(allnames[x]) #total time in seconds
-        occurences,distance = getMovement(allnames[x])
+        distance = getMovement(allnames[x])
         pos = getJsonPositions(allnames[x])
         occ = getOcclusion(allnames[x]) #occlusion
         occScreen = getOcclusionScreen(allnames[x])
         gen_occ = gen_occ + (time*occ)
+        appearances = len(getContent(allnames[x]))
         
         print len(pos), "Position(s) of", allnames[x], ":", pos, "\n", "Total time on the table:", time, "seconds"
         print "Average screen space occluded by this item:", occScreen, "percent."
         print "Average space occluded throughout the experiment:", (time*occ)/(totaltime)
-        print "Number of appearances:", occurences
+        print "Number of appearances:", appearances
         print "Distance:", distance
         a, b = getSize(allnames[x])
         print "Average x =", a, "px and average y =", b, "px"
         print "\n"
 
-        output_list.append((allnames[x], str((time/60)), str(occ), str(((time*occ)/(totaltime))), str(a), str(b)))
+        output_list.append((allnames[x], str((time/60)), str(occ), str(((time*occ)/(totaltime))), str(a), str(b), str(appearances), str(distance)))
 
     print "Physicals:", p, "\n", "Hybrids:", h
     print "Average items on the table:", ontableT
@@ -194,6 +196,8 @@ def generateOutput(allnames, list): #create output for console and file
         xP = 0
         yP = 0
         gen_occ_P = 0
+        distance=0
+        appearances=0
         for x in range(len(p)):
             timeP = timeP + getTime(p[x])
             occP = occP + getOcclusion(p[x])
@@ -201,10 +205,12 @@ def generateOutput(allnames, list): #create output for console and file
             gen_occ_P = gen_occ_P + (getTime(p[x])*getOcclusion(p[x]))
             posP.append(getJsonPositions(p[x]))
             sizexP, sizeyP = getSize(p[x])
+            distance = distance + getMovement(p[x])
+            appearances = appearances + len(getContent(p[x]))
             xP = xP + sizexP
             yP = yP + sizeyP
 
-        output_list.append(("physical item", str(((timeP/60))/len(p)), str((occP /len(p))), str(((gen_occ_P/totaltime))), str(xP/len(posP)), str(yP/len(posP))))
+        output_list.append(("physical item", str(((timeP/60))/len(p)), str((occP /len(p))), str(((gen_occ_P/totaltime))), str(xP/len(posP)), str(yP/len(posP)), str(appearances/len(p)), str(distance/len(p))))
 
         print "Position(s) of PHYSICALS:", posP, "\n", "Average time of PHYSICAL ITEMS on the table:", timeP /len(p), "seconds."
         print "Average screen space occluded by one physical item:", occScreenP / len(p), "percent."
@@ -223,6 +229,8 @@ def generateOutput(allnames, list): #create output for console and file
         xH = 0
         yH = 0
         gen_occ_H=0
+        distance=0
+        appearances=0
         for x in range(len(h)):
             timeH = timeH + getTime(h[x])
             occH = occH + getOcclusion(h[x])
@@ -230,10 +238,12 @@ def generateOutput(allnames, list): #create output for console and file
             gen_occ_H = gen_occ_H + (getTime(h[x])*getOcclusion(h[x]))
             posH.append(getJsonPositions(h[x]))
             sizexH, sizeyH = getSize(h[x])
+            distance = distance + getMovement(h[x])
+            appearances = appearances + len(getContent(h[x]))
             xH = xH + sizexH
             yH = yH + sizeyH
 
-        output_list.append(("hybrid item", str((((timeH/60))/len(h))), str((occH /len(h))), str(((gen_occ_H/totaltime))), str(xH/len(posH)), str(yH/len(posH))))
+        output_list.append(("hybrid item", str((((timeH/60))/len(h))), str((occH /len(h))), str(((gen_occ_H/totaltime))), str(xH/len(posH)), str(yH/len(posH)), str(appearances/len(h)), str(distance//len(h))))
 
         print "Position(s) of HYBRIDS:", posH, "\n", "Average time of HYBRID ITEMS on the table:", timeH / len(h), "seconds."
         print "Average screen space occluded by one hybrid item:", occScreenH / len(h), "percent."
@@ -286,35 +296,38 @@ def outputMatrix(matrix, outputname): #switch int to str
             matrix[x][y]=str(c)
     outputFile(matrix, outputname)
 
-json_file = open('graphical_annotation.json', 'r')
-json_data = json.load(json_file)
-print "Items in json file: ", len(json_data["annotations"]), "\n"
+session = 0
+while (session<5):
+  session = session + 1
+  json_file = open('graphical_annotation_' + str(session) + '.json', 'r')
+  json_data = json.load(json_file)
+  print "Items in json file: ", len(json_data["annotations"]), "\n"
 
-allnames = getNames()
-output_list = [('name', 'time on table (in m)', 'occlusion', 'occlusion through experiment', 'sizeX', 'sizeY')]
-generateOutput(allnames, output_list)
-outputFile(output_list, 'output_1.csv')
+  allnames = getNames()
+  output_list = [('name', 'time on table (in m)', 'occlusion', 'occlusion through experiment', 'sizeX', 'sizeY','occurences','distance')]
+  generateOutput(allnames, output_list)
+  outputFile(output_list, 'output_' + str(session) + '.csv')
 
-#pprint.pprint(output_list)
+  # pprint.pprint(output_list)
 
-matrix = createMatrix(790,590)
-matrixPhysicals = createMatrix(790,590)
-matrixHybrids = createMatrix(790,590)
-physicals, hybrids = getCategory(allnames)
+  matrix = createMatrix(790,590)
+  matrixPhysicals = createMatrix(790,590)
+  matrixHybrids = createMatrix(790,590)
+  physicals, hybrids = getCategory(allnames)
 
-for s in range(len(allnames)):
-    matrix = modifyMatrix(allnames[s],matrix)
-outputMatrix(matrix,'matrix_1_big.csv')
+  for s in range(len(allnames)):
+      matrix = modifyMatrix(allnames[s],matrix)
+  outputMatrix(matrix,'matrix_' + str(session) + '_big.csv')
 
-if len(physicals) > 0:
-    for s in range (len(physicals)):
-        matrixPhysicals = modifyMatrix(physicals[s],matrixPhysicals)
-    outputMatrix (matrixPhysicals, 'matrix_1_big_Physicals.csv')
+  if len(physicals) > 0:
+      for s in range (len(physicals)):
+          matrixPhysicals = modifyMatrix(physicals[s],matrixPhysicals)
+      outputMatrix (matrixPhysicals, 'matrix_' + str(session) + '_big_Physicals.csv')
 
-if len(hybrids) > 0:
-    for s in range (len(hybrids)):
-        matrixHybrids = modifyMatrix(hybrids[s], matrixHybrids)
-    outputMatrix(matrixHybrids, 'matrix_1_big_Hybrids.csv')
+  if len(hybrids) > 0:
+      for s in range (len(hybrids)):
+          matrixHybrids = modifyMatrix(hybrids[s], matrixHybrids)
+      outputMatrix(matrixHybrids, 'matrix_' + str(session) + '_big_Hybrids.csv')
 
 
-json_file.close()
+  json_file.close()
